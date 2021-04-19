@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+body{
+  background-image: url('svg/pond2.gif');
+background-size: cover;
+}
+.sounds{
+padding-left: 170vh;
+  position: absolute;
+ margin-top: 7vh;
+}
+
+button{
+background-color:rgba(247, 247, 247, 1);
+color:rgba(8, 49, 49, 1);
+border-color:  rgba(8, 49, 49, 1);
+border-left-color:  rgba(8, 49, 49, 1);
+border-right-color:  rgba(8, 49, 49, 1);
+border-bottom-color:  rgba(8, 49, 49, 1);
+border-radius: 9px;
+ font-size: 50px;
+ font-family:  'Patrick Hand', cursive;
+
+  position: absolute;
+
+  }
+ #tmin{
+   margin-top: 40vh;
+    position: absolute;
+   border-left-color:  rgba(8, 49, 49, 1);
+border-right-color:  rgba(8, 49, 49, 1);
+border-bottom-color:  rgba(8, 49, 49, 1); 
+ }
+  #ftmin{
+   padding-top: 60vh;
+    position: absolute;
+ }
+  #fmin{
+   padding-top: 20vh;
+    position: absolute;
+    
+ }
+button:hover {
+  background-color: rgba(255, 206, 233, 1);
+}
+a { 
+    text-decoration: none; 
+    color: white;
+
+}
+a:visited { 
+    text-decoration: none; 
+    color: white;
+}
+ h3{
+   position: absolute;
+   padding-left: 100vh;
+   padding-top: 40vh;
+ }
+
+#demo{
+ margin-left: 33%;
+  color: rgba(155, 179, 144, 1);
+  font-size: 300px;
+  position: absolute;
+  margin-top: 3%;
+  font-family: 'Reenie Beanie';
+}
+#stop{
+margin-top: 30%;
+margin-left: 43%;
+position: absolute;
+}
