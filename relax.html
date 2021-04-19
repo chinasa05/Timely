@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Relax</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+
+
+
+  <!--icon that will play rain music -->
+<div class="sounds">
+  <div id = "rain">
+    <img src="svg/rain.svg" alt="rain" width="150" height="145" onclick="playMusic1();"/>
+  </div>
+  <div id = "sun">
+    <img src="svg/sun.svg" alt="sun" width="150" height="145" onclick="playMusic2();"/>
+  </div>
+     <div id ="music"> 
+       <img src="svg/music.svg" alt="music" width="150" height="145"onclick="playMusic3();" />
+      </div>
+</div>
+
+ 
+<p id="demo">000</p>
+ 
+  <div id = "fmin">
+    <button id="fomin" onclick="clock(); document.getElementById('demo').innerHTML='300';"/>5Min</button>
+    </div>
+   <div id = "tmin">
+     <button id="10min"onclick="tclock(); document.getElementById('demo').innerHTML='600';">10Min</button>
+     </div>
+  <div id = "ftmin">
+    <button id="15min"onclick="fclock(); document.getElementById('demo').innerHTML='900';">15Min</button>
+    </div>
+    <div id= "stop">
+      <button onclick="clearInterval(myTimer);">Stop</button>
+      </div>
+    </div>
+
+
+
+    <script src="script.js">
+  
+  </script>
+  
+  <script>
+
+    </script>
+  </body>
+</html>
